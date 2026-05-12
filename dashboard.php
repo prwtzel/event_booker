@@ -4,9 +4,6 @@ include 'db.php';
 include 'header.php';
 
 
-/* =========================
-   STATS
-========================= */
 
 $total_bookings = $conn->query("
     SELECT COUNT(*) as total 
@@ -57,7 +54,6 @@ body {
     background-attachment: fixed;
 }
 
-/* GRADIENT TEXT */
 .gradient-text {
     font-weight: 800;
     font-size: 32px;
