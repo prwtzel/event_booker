@@ -25,9 +25,8 @@ $total_revenue = $conn->query("
     WHERE status = 'Approved'
 ")->fetch_assoc()['total'] ?? 0;
 
-/* =========================
-   UPCOMING EVENTS (FIXED)
-========================= */
+
+
 
 $upcoming = $conn->query("
     SELECT *
