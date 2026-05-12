@@ -92,7 +92,7 @@
     </div>
 </div>
 
-<!-- FEATURES ONLY -->
+
 <div class="features">
 
     <div class="container">
