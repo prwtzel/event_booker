@@ -4,9 +4,7 @@ include 'db.php';
 include 'header.php';
 
 
-/* =========================
-   STATS
-========================= */
+
 
 $total_bookings = $conn->query("
     SELECT COUNT(*) as total 
