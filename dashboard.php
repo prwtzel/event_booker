@@ -54,7 +54,6 @@ body {
     background-attachment: fixed;
 }
 
-/* GRADIENT TEXT */
 .gradient-text {
     font-weight: 800;
     font-size: 32px;
