@@ -3,7 +3,7 @@ session_start();
 include 'db.php';
 include 'header.php';
 
-/* FETCH ONLY APPROVED BOOKINGS */
+
 $bookings = $conn->query("
     SELECT *
     FROM bookings
